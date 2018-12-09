@@ -1,0 +1,2 @@
+VehicleNo,CustomerNo,CommunityId,RooftopId,FirstName,Surname,Email,PhoneNumber,MakeCode,ModelYear,ModelCode,Description,RegistrationNo,VinNumber,LastServiceDate,LastKnownMileage,NextServiceDate,NextServiceMileage,VariantCode
+100100,200200,GILDEV,GILTRAPDEV,Preety,Sehrawat,preety100@yopmail.com,225981071,B,2017,POLO,VW Polo GTI 7DSG,ABC111,WVGZZZ7PZGD009944,2/14/2018,18000,7/14/2018,22000,7P62RR

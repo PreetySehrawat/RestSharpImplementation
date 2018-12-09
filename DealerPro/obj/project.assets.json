@@ -1,0 +1,1175 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Chromium.ChromeDriver/2.37.0": {
+        "type": "package"
+      },
+      "ExcelDataReader/3.4.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net45/ExcelDataReader.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ExcelDataReader.dll": {}
+        }
+      },
+      "ExcelDataReader.DataSet/3.4.2": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDataReader": "3.4.2"
+        },
+        "compile": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        }
+      },
+      "ExtentReports/2.41.0": {
+        "type": "package",
+        "compile": {
+          "lib/RelevantCodes.ExtentReports.dll": {}
+        },
+        "runtime": {
+          "lib/RelevantCodes.ExtentReports.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.4.9.5": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.4.0",
+          "MongoDB.Driver.Core": "2.4.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.4.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.11.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "RazorEngine/3.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0"
+        },
+        "compile": {
+          "lib/net45/RazorEngine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RazorEngine.dll": {}
+        }
+      },
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net452/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      },
+      "Selenium.Support/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "Chromium.ChromeDriver/2.37.0": {
+        "type": "package"
+      },
+      "ExcelDataReader/3.4.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net45/ExcelDataReader.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ExcelDataReader.dll": {}
+        }
+      },
+      "ExcelDataReader.DataSet/3.4.2": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDataReader": "3.4.2"
+        },
+        "compile": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        }
+      },
+      "ExtentReports/2.41.0": {
+        "type": "package",
+        "compile": {
+          "lib/RelevantCodes.ExtentReports.dll": {}
+        },
+        "runtime": {
+          "lib/RelevantCodes.ExtentReports.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.4.9.5": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.4.0",
+          "MongoDB.Driver.Core": "2.4.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.4.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.11.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "RazorEngine/3.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0"
+        },
+        "compile": {
+          "lib/net45/RazorEngine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RazorEngine.dll": {}
+        }
+      },
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net452/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      },
+      "Selenium.Support/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "Chromium.ChromeDriver/2.37.0": {
+        "type": "package"
+      },
+      "ExcelDataReader/3.4.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net45/ExcelDataReader.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ExcelDataReader.dll": {}
+        }
+      },
+      "ExcelDataReader.DataSet/3.4.2": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDataReader": "3.4.2"
+        },
+        "compile": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        }
+      },
+      "ExtentReports/2.41.0": {
+        "type": "package",
+        "compile": {
+          "lib/RelevantCodes.ExtentReports.dll": {}
+        },
+        "runtime": {
+          "lib/RelevantCodes.ExtentReports.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.4.9.5": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.4.0",
+          "MongoDB.Driver.Core": "2.4.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.4.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.11.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "RazorEngine/3.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0"
+        },
+        "compile": {
+          "lib/net45/RazorEngine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RazorEngine.dll": {}
+        }
+      },
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net452/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      },
+      "Selenium.Support/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "Chromium.ChromeDriver/2.37.0": {
+        "type": "package"
+      },
+      "ExcelDataReader/3.4.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net45/ExcelDataReader.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ExcelDataReader.dll": {}
+        }
+      },
+      "ExcelDataReader.DataSet/3.4.2": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDataReader": "3.4.2"
+        },
+        "compile": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        }
+      },
+      "ExtentReports/2.41.0": {
+        "type": "package",
+        "compile": {
+          "lib/RelevantCodes.ExtentReports.dll": {}
+        },
+        "runtime": {
+          "lib/RelevantCodes.ExtentReports.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.4.9.5": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.4.0",
+          "MongoDB.Driver.Core": "2.4.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.4.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.11.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "RazorEngine/3.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0"
+        },
+        "compile": {
+          "lib/net45/RazorEngine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RazorEngine.dll": {}
+        }
+      },
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net452/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      },
+      "Selenium.Support/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chromium.ChromeDriver/2.37.0": {
+      "sha512": "vLgDjn5Wm7IDA7ZqvVicY42IMSwa06xTIrdeTzGKajABvRdpog4QuLkykxbk305YU38cy81rND6xUUBWZQMN4w==",
+      "type": "package",
+      "path": "chromium.chromedriver/2.37.0",
+      "files": [
+        ".signature.p7s",
+        "chromium.chromedriver.2.37.0.nupkg.sha512",
+        "chromium.chromedriver.nuspec",
+        "content/chromedriver.exe",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "ExcelDataReader/3.4.2": {
+      "sha512": "SIzbv+04wpgM96SWFaX5cbwwJKStx5LtFt/QIefP7f0OUjzaUzwwdMG5oXLASxVcZT4QK13F8zfqF55yjEYQZg==",
+      "type": "package",
+      "path": "exceldatareader/3.4.2",
+      "files": [
+        ".signature.p7s",
+        "exceldatareader.3.4.2.nupkg.sha512",
+        "exceldatareader.nuspec",
+        "lib/net20/ExcelDataReader.dll",
+        "lib/net20/ExcelDataReader.xml",
+        "lib/net45/ExcelDataReader.dll",
+        "lib/net45/ExcelDataReader.xml",
+        "lib/netstandard1.3/ExcelDataReader.dll",
+        "lib/netstandard1.3/ExcelDataReader.xml",
+        "lib/netstandard2.0/ExcelDataReader.dll",
+        "lib/netstandard2.0/ExcelDataReader.xml"
+      ]
+    },
+    "ExcelDataReader.DataSet/3.4.2": {
+      "sha512": "Ciitjn6Z95ryiYDt3R5qNJwoYH9kwimseVOzcUNpLa9BPduoUpQfbgLoStA2fR9NRXb6veV6Vjbm8lMAjII1jw==",
+      "type": "package",
+      "path": "exceldatareader.dataset/3.4.2",
+      "files": [
+        ".signature.p7s",
+        "exceldatareader.dataset.3.4.2.nupkg.sha512",
+        "exceldatareader.dataset.nuspec",
+        "lib/net20/ExcelDataReader.DataSet.dll",
+        "lib/net20/ExcelDataReader.DataSet.xml",
+        "lib/net35/ExcelDataReader.DataSet.dll",
+        "lib/net35/ExcelDataReader.DataSet.xml",
+        "lib/netstandard2.0/ExcelDataReader.DataSet.dll",
+        "lib/netstandard2.0/ExcelDataReader.DataSet.xml"
+      ]
+    },
+    "ExtentReports/2.41.0": {
+      "sha512": "Jmxor7yu7unhS1iitV328PulkscwARJpzyotpczX366wEKj5HfINwTgojc2iuB4EJ/+gxEI7Fl8StGvoUWiXFg==",
+      "type": "package",
+      "path": "extentreports/2.41.0",
+      "files": [
+        ".signature.p7s",
+        "extentreports.2.41.0.nupkg.sha512",
+        "extentreports.nuspec",
+        "lib/RelevantCodes.ExtentReports.dll"
+      ]
+    },
+    "HtmlAgilityPack/1.4.9.5": {
+      "sha512": "TQg/I4nsCS55G+UzatJCsa8jbUksM18KYn06oHeqG9HdTafoou2GyHzTe/uXhFCdL8bpTM7CGEhR81P7oql+wQ==",
+      "type": "package",
+      "path": "htmlagilitypack/1.4.9.5",
+      "files": [
+        ".signature.p7s",
+        "HAPIcon.png",
+        "htmlagilitypack.1.4.9.5.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net20/HtmlAgilityPack.dll",
+        "lib/Net20/HtmlAgilityPack.pdb",
+        "lib/Net20/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.pri",
+        "lib/NetCore45/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/sl5/HtmlAgilityPack.XML",
+        "lib/sl5/HtmlAgilityPack.dll",
+        "lib/sl5/HtmlAgilityPack.pdb",
+        "readme.txt"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.0.0": {
+      "sha512": "wPjjvF0jvcwARh39b1FbhnVNbXFOCSxBVGm9XNsE3+Hk0y6fLFFn103V8I6mkScn6fMhNj/Gb/mpDOrj+L8gFg==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.0.0.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "MongoDB.Bson/2.4.0": {
+      "sha512": "aqicHjuHBeupU+Tfu4fBbNqXrNQoZoVoRnwb64hTx6yhRzEXXcyQV7+reHwsnlrBiSCVkzntCb4GFp39oIngyg==",
+      "type": "package",
+      "path": "mongodb.bson/2.4.0",
+      "files": [
+        ".signature.p7s",
+        "License.rtf",
+        "lib/net45/MongoDB.Bson.XML",
+        "lib/net45/MongoDB.Bson.dll",
+        "lib/netstandard1.5/MongoDB.Bson.dll",
+        "lib/netstandard1.5/MongoDB.Bson.xml",
+        "mongodb.bson.2.4.0.nupkg.sha512",
+        "mongodb.bson.nuspec"
+      ]
+    },
+    "MongoDB.Driver/2.4.0": {
+      "sha512": "mGcdk4IFsI+ixGByVTPu9xJicWBxUKkPxgs7pN1w4OXB3a/o+jkDnsJX8RQxWbKgfrEjK/VG0B2TlgftryETZg==",
+      "type": "package",
+      "path": "mongodb.driver/2.4.0",
+      "files": [
+        ".signature.p7s",
+        "License.rtf",
+        "lib/net45/MongoDB.Driver.XML",
+        "lib/net45/MongoDB.Driver.dll",
+        "lib/netstandard1.5/MongoDB.Driver.dll",
+        "lib/netstandard1.5/MongoDB.Driver.xml",
+        "mongodb.driver.2.4.0.nupkg.sha512",
+        "mongodb.driver.nuspec"
+      ]
+    },
+    "MongoDB.Driver.Core/2.4.0": {
+      "sha512": "Un33eEM5IpraNDEhC6ZoujzuCUQby2hyySLkerbfUr3UL4XhWVwx83Ykug0nBLOxi4nCH5Wn755Vv2KWb2T3GA==",
+      "type": "package",
+      "path": "mongodb.driver.core/2.4.0",
+      "files": [
+        ".signature.p7s",
+        "License.rtf",
+        "lib/net45/MongoDB.Driver.Core.XML",
+        "lib/net45/MongoDB.Driver.Core.dll",
+        "lib/netstandard1.5/MongoDB.Driver.Core.dll",
+        "lib/netstandard1.5/MongoDB.Driver.Core.xml",
+        "mongodb.driver.core.2.4.0.nupkg.sha512",
+        "mongodb.driver.core.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "2okXpTRwUcgQb06put5LwwCjtgoFo74zkPksjcvOpnIjx7TagGW5IoBCAA4luZx1+tfiIhoNqoiI7Y7zwWGyKA==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NUnit/3.11.0": {
+      "sha512": "zecrYxUA5p5w8AZ2bvbBbiUIcrQnZAVPrziNMSWMdcOi0D2Oe7yKUNivWPIQMcUwQDHmWtS/ijnD48ubU/eHZQ==",
+      "type": "package",
+      "path": "nunit/3.11.0",
+      "files": [
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net20/NUnit.System.Linq.dll",
+        "lib/net20/nunit.framework.dll",
+        "lib/net20/nunit.framework.pdb",
+        "lib/net20/nunit.framework.xml",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.11.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit3TestAdapter/3.11.0": {
+      "sha512": "Rrf6YJw1EAZKMwC1vNRHNBeWY+ziPOM6uh50HUaag8AjsVmc36XmdcmfdPsipPzWFsJhE9Js3FTJ93CMkoBpoA==",
+      "type": "package",
+      "path": "nunit3testadapter/3.11.0",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp1.0/NUnit3.TestAdapter.dll",
+        "build/netcoreapp1.0/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp1.0/NUnit3TestAdapter.props",
+        "build/netcoreapp1.0/nunit.engine.netstandard.dll",
+        "nunit3testadapter.3.11.0.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "RazorEngine/3.9.0": {
+      "sha512": "DzgEdHNslrS1xdmIUazULE3GbdpfdDUhykdTcRHj6PwYp3bjcLI+gM2MY+3ghX4f3zSiQYJ7Yw/1F1zOMa47sA==",
+      "type": "package",
+      "path": "razorengine/3.9.0",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/RazorEngine.dll",
+        "lib/net40/RazorEngine.xml",
+        "lib/net45/RazorEngine.dll",
+        "lib/net45/RazorEngine.xml",
+        "razorengine.3.9.0.nupkg.sha512",
+        "razorengine.nuspec"
+      ]
+    },
+    "RestSharp/106.5.4": {
+      "sha512": "YaGn6olg2GD0gLy7YDG1FsSnC6TBwgn/zZSONiOj7hPFJJ0Q+k2hBogyalUXkodihVa0ugRwCqSPCiqdNyFKzA==",
+      "type": "package",
+      "path": "restsharp/106.5.4",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.5.4.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "Selenium.Support/3.141.0": {
+      "sha512": "ov2XBE48L1M2bTc8azz5rSpfT45+q6bw9sBc84NObGebFZ/S2SCnV/TSoBy2Zf3vPXij63Nd1VRcwQkyKC4Vyw==",
+      "type": "package",
+      "path": "selenium.support/3.141.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net45/WebDriver.Support.xml",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.3.141.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "sha512": "ymXPJ9zp7KPIV0H6DdI3boIwc46LrEW1T653Ow6OsRbMFgyDcqRCX8JOeYLm68jIq+7rgECLLUXxmAit5TP/Iw==",
+      "type": "package",
+      "path": "selenium.webdriver/3.141.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.141.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+      "sha512": "vMoSAMtzOedZjsFyVSeSV9nUBxPqO/Q7NeIYuuhlDzyDW4TdVV9aUU1qJsUW7LK0ctzcnJeWlVPaLnnS/N4SIw==",
+      "type": "package",
+      "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
+      "files": [
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/win8/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/wpa81/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512",
+        "system.runtime.interopservices.runtimeinformation.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Chromium.ChromeDriver >= 2.37.0",
+      "ExcelDataReader.DataSet >= 3.4.2",
+      "ExtentReports >= 2.41.0",
+      "HtmlAgilityPack >= 1.4.9.5",
+      "MongoDB.Driver >= 2.4.0",
+      "NUnit >= 3.11.0",
+      "NUnit3TestAdapter >= 3.11.0",
+      "Newtonsoft.Json >= 9.0.1",
+      "RazorEngine >= 3.9.0",
+      "RestSharp >= 106.5.4",
+      "Selenium.Support >= 3.141.0",
+      "Selenium.WebDriver >= 3.141.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Preety.Sehrawat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Preety.Sehrawat\\Desktop\\CarServiceBooking\\Giltrap-DealerPro\\Giltrap-DealerPro.csproj",
+      "projectName": "Giltrap-DealerPro",
+      "projectPath": "C:\\Users\\Preety.Sehrawat\\Desktop\\CarServiceBooking\\Giltrap-DealerPro\\Giltrap-DealerPro.csproj",
+      "packagesPath": "C:\\Users\\Preety.Sehrawat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Preety.Sehrawat\\Desktop\\CarServiceBooking\\Giltrap-DealerPro\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Preety.Sehrawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Chromium.ChromeDriver": {
+            "target": "Package",
+            "version": "[2.37.0, )"
+          },
+          "ExcelDataReader.DataSet": {
+            "target": "Package",
+            "version": "[3.4.2, )"
+          },
+          "ExtentReports": {
+            "target": "Package",
+            "version": "[2.41.0, )"
+          },
+          "HtmlAgilityPack": {
+            "target": "Package",
+            "version": "[1.4.9.5, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.4.0, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[9.0.1, )"
+          },
+          "RazorEngine": {
+            "target": "Package",
+            "version": "[3.9.0, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.5.4, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[3.141.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.141.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
